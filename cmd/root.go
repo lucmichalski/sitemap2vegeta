@@ -1,7 +1,7 @@
 package cmd
 
 import (
-   	"fmt"
+	"fmt"
 	"os"
 
 	"github.com/sirupsen/logrus"
@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	log        = logrus.New()
+	log = logrus.New()
 )
 
 var options struct {
@@ -23,8 +23,8 @@ var options struct {
 // RootCmd is the root command for ovh-qa
 var RootCmd = &cobra.Command{
 	Use:   "sitemap2vegeta",
-	Short: "Convert a sitemap to a vegeta target urls list",
-	Long:  `Convert a sitemap to a vegeta target urls list.`,
+	Short: "Sitemap2vegeta is an helper for converting a sitemap to a vegeta target urls list",
+	Long:  `Sitemap2vegeta is an helper for converting a sitemap/sitemap index to a vegeta target urls list.`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
